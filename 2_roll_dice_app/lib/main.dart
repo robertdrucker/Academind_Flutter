@@ -10,8 +10,8 @@ void main() {
             moreColors: [
               Color.fromARGB(65, 33, 5, 109),
               Color.fromARGB(195, 68, 21, 199)
-            ],
-            key: ValueKey('mySpecialContainer')),
+            ]),
+        // body: GradientContainer.purple(key: ValueKey('mySpecialContainer')),
       ),
     ),
   );
